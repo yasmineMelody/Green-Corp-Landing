@@ -1,79 +1,189 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #11111b;
-    margin: 0;
-  }
-
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #11111b;
+  margin: 0;
 }
 
-.header__logo{
-    height: 30px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__logo {
+  height: 30px;
 }
 
 a {
-    text-decoration: none;
-    color: #213053;
-  }
-   
-  header a {
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 25px;
+  text-decoration: none;
+  color: #213053;
 }
-  
-  button {
-    font-family: 'Raleway', sans—serif;
-    font-size: 15px;
-    color: #fff;
-    background-color: #23a030;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
-    padding: 15px;
-  }
 
-  .about_sun{
-    width: 100px;
-    height: 100px;
-  }
- 
-  .about_img{
-width: 500px;
+header a {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 25px;
+}
 
-  }
-  .about{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding-top: 115px;
-      padding-bottom: 115px;
-      background: url(img/back.png) no-repeat;
-      background-position: center;
-      background-size: cover;
-  }
+button {
+  font-family: "Raleway", sans—serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #23a030;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+  padding: 15px;
+}
+
+.about_sun {
+  width: 100px;
+  height: 100px;
+}
+
+.about_img {
+  width: 500px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background: url(img/back.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about h1 {
+  font-size: 70px;
+  line-height: 76px;
+}
+.about p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+.about button {
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin: 20px;
+}
+.about__info {
+  max-width: 550px;
+}
+
+.form_container {
+  width: 550 px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  background-color: #1d263a;
+  color: #fff;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  text-align: center;
+}
+
+.form h3 {
+  font-size: 48px;
+}
+
+.form p {
+  font-size: 18px;
+  opacity: 0.65;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 15px;
+}
+.form label {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.form input {
+  font-size: 18px;
+  color: #213053;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.form select {
+  font-size: 18px;
+  color: #213053;
+  height: 60px;
+  padding: 0px 0px 20px 20px;
+  border-radius: 20px;
+  border: none;
+  appearance: none;
+}
+
+.form_button button {
+  width: 100%;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input {
+  outline: none;
+}
+
+button:hover {
+  background-color: #f6980c;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+  transition: background-color 0.3s ease-in;
+}
+
+footer {
+  padding: 90px 20px;
+  font-size: 16px;
+  font-weight: 600;
  
-  .about h1{
-    font-size: 70px;
-    line-height: 76px;
-  }
-  .about p{
-font-size: 18px;
-line-height: 30px;
-opacity: 0.8;
-  }
-  .about button{
-    font-size: 18px;
-    border-radius: 20px;
-    padding: 20px 25px;
-    margin: 20px;
-  }
-  .about__info {
-    max-width: 550px;
-  }
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__copyright p {
+margin-top: 40px;
+text-align: center;
+opacity: 0.7;
+font-size: 16px;
+padding-top: 50px;
+
+}
+
+.footer__group {
+  padding-right: 80 px;
+}
+
+.footer__group h3 {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__links a{
+margin-bottom: 15px;
+
+}

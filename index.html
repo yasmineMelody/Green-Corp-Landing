@@ -5,8 +5,7 @@
     <link rel="stylesheet" href="main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
 
   <body>
@@ -32,5 +31,83 @@
         <img class="about_img" src="img/solar-panel.png" />
       </div>
     </section>
+    <section class="form">
+      <div class="form_container">
+        <h3>Оставьте свои контакты</h3>
+        <p>
+          Мы поможем подобрать модель. <br />Выбрать удобный вариант доставки и
+          установки. <br />Гарантия возврата денег
+        </p>
+        <form>
+          <div class="form__group">
+            <label for="form_name"> Ваше имя </label>
+            <input id="form_name" type="text" placeholder="Введите имя" />
+          </div>
+          <div class="form__group">
+            <label for="form_lastname"> Ваша Фамилия </label>
+            <input
+              id="form_lastname"
+              type="text"
+              placeholder="Введите Фамилию" />
+          </div>
+          <div class="form__group">
+            <label for="form_number"> Ваш номер телефона </label>
+            <input
+              id="form_number"
+              type="number"
+              placeholder="8-999-999-99-99" />
+          </div>
+          <div class="form__group">
+            <label for="form_cash"> Ваш бюджет </label>
+            <input id="form_cash" type="number" placeholder="До 100.000" />
+          </div>
+          <div class="form_button">
+            <button
+              type="submit"
+              onclick='alert("Заявка отправлена!"); return false'>
+              Отправить заявку
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="footer__container">
+
+        <div class="footer__group">
+          <h3> Позвонить нам:</h3>
+          <div class="footer__links">
+            <a href="tel:74959999999">+7 (495) 999-99-99</a>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <h3> Решения для дома:</h3>
+          <div class="footer__links">
+            <a href="#"> Солнечные панели GreenRobotic </a>
+            <a href="#"> Системы солнечных панелей GreenStation </a>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <h3> Комания</h3>
+          <div class="footer__links">
+            <a href="#"> Контакты </a>
+            <a href="#"> Вакансии </a>
+            <a href="#"> СМИ </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__copyright">
+
+        <p>GreenCorp © 2021</p>
+
+      </div>
+    </footer>
+
   </body>
 </html>

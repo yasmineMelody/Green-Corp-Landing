@@ -192,3 +192,60 @@ padding-top: 50px;
 margin-bottom: 15px;
 
 }
+
+@media (max-width: 1024px) {
+  .form,
+  .about {
+    padding: 50px 20px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about_images {
+    padding-top: 50px;
+  }
+
+  .about h1,
+  .form h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .header__logo {
+    height: 20px;
+  }
+
+  header a {
+    margin-right: 10px;
+  }
+
+  .about_img {
+    width: 280px;
+  }
+
+  .about_sun-image {
+    width: 75px;
+    height: 75px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__container .footer__group {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .form,
+  .about {
+    padding: 50px 10px;
+  }
+}

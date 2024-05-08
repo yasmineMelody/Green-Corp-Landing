@@ -43,6 +43,14 @@ button {
   padding: 15px;
 }
 
+.icon {
+display: inline-block;
+color: #eaecea;
+opacity: 0.9;
+padding-left: 10px;
+font-size: larger;
+}
+
 .about_sun {
   width: 100px;
   height: 100px;
@@ -133,6 +141,7 @@ button {
   border-radius: 20px;
   border: none;
   appearance: none;
+  outline: none;
 }
 
 .form_button button {
@@ -191,6 +200,27 @@ padding-top: 50px;
 .footer__links a{
 margin-bottom: 15px;
 
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.about_sun {
+  width: 100px;
+  height: 100px;
+  animation: rotation 10s infinite linear;
+  position: absolute;
+}
+
+.about_sun:hover{
+animation-play-state: paused;
+
+}
+.about_sun:active{
+  transform: scale(2);
 }
 
 @media (max-width: 1024px) {
